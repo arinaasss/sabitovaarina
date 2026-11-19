@@ -1,0 +1,211 @@
+.li1 {
+    text-align: left;
+}
+.li2 {
+    text-align: right;
+}
+.li3 {
+    text-align: center;
+}
+.li4 {
+    text-align: justify;
+}
+.li5 {
+    color: red;
+}
+body {
+    background-image: url(https://avatars.avto.ru/get-autoru-vos/2156560/b190a6576012a952e220cc2804afdd3f/1200x900);
+}
+p {
+    color: yellow;
+}
+table {
+    color: lightblue;
+}
+ul {
+    list-style-type: square;
+    
+}
+.fourmarkers {
+    color: pink;
+}
+h1 {
+    color: green;
+}
+#parent {
+    border: 2px solid red;
+}
+#child {
+    border: 3px dashed purple;
+    margin: 50px;
+    background-color: blue;
+}
+#vnuk {
+    border: 5px solid aquamarine;
+    margin: 30px;
+}
+.span1 {
+    border: 1px solid;
+    color: white;
+}
+.span2 {
+    border: 1px solid;
+    color: blue;
+}
+.span3 {
+    border: 1px solid;
+    color: red;
+}
+.blockh {
+    margin-top: 20px;
+    display: block;
+    border: 1px solid red;
+    text-align: center;
+}
+.strinch {
+    margin: 10px;
+    display: inline;
+    border: 1px solid green;
+}
+.pinsp {
+    display: inline;
+    color: blue;
+}
+
+.rect {
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.div1 {
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid lightblue;
+    padding: 10px;
+    width: 1000px;
+}
+.div2 {
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid lightblue;
+    padding: 10px;
+    width: 1000px;
+}
+.div3 {
+    display: flex;
+    justify-content: center;
+    border: 2px solid lightblue;
+    padding: 10px;
+    width: 1000px;
+}
+.div4 {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid lightblue;
+    padding: 10px;
+    width: 1000px;
+}
+.div5 {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid lightblue;
+    padding: 10px;
+    width: 1000px;
+}
+.div6 {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid lightblue;
+    padding: 10px;
+    width: 1000px;
+}
+.new-rect {
+    width: 50px;
+    height: 50px;
+    border: 2px solid pink;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.to-right {
+    display: inline-flex;
+    border: 2px solid red;
+    padding: 10px;
+    flex-direction: row;
+    margin: 10px;
+}
+.to-left {
+    display: inline-flex;
+    border: 2px solid red;
+    padding: 10px;
+    flex-direction: row-reverse;
+    margin: 10px;
+}
+.down {
+    display: inline-flex;
+    border: 2px solid red;
+    padding: 10px;
+    flex-direction: column;
+    margin: 10px;
+}
+.up {
+    display: inline-flex;
+    border: 2px solid red;
+    padding: 10px;
+    flex-direction: column-reverse;
+    margin: 10px;
+}
+.block {
+    display: block;
+}
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+.stretch {
+    display: flex;
+    align-items: stretch;
+    border: 2px solid red;
+    padding: 10px;
+}
+.flex-start {
+    display: flex;
+    align-items: flex-start;
+    border: 2px solid red;
+    padding: 10px;
+}
+.flex-end {
+    display: flex;
+    align-items: flex-end;
+    border: 2px solid red;
+    padding: 10px;
+}
+.center {
+    display: flex;
+    align-items: center;
+    border: 2px solid red;
+    padding: 10px;
+}
+.rect1 {
+    width: 50px;
+    height: 30px;
+    border: 2px solid red;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.rect2 {
+    width: 50px;
+    height: 80px;
+    border: 2px solid red;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.rect3 {
+    width: 50px;
+    height: 60px;
+    border: 2px solid red;
+    margin-left: 5px;
+    margin-right: 5px;
+}
